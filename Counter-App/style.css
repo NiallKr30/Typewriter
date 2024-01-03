@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+:root {
+    --minus:#fce7e7;
+    --plus:#e2f8e3;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #f7f8f9;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    padding: 6px;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.15);
+    background: #fff;
+
+
+}
+
+/* counter */
+
+.minus,.plus,.counter {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+}
+
+.minus:hover {
+    background-color: #f1d9d9;
+  }
+
+.minus {
+    background-color: var(--minus);
+    color: #910b09;
+}
+
+.plus:hover {
+    background-color: #cdf1ce;
+  }
+
+.plus {
+    background-color: var(--plus);
+    color: #145d17;
+}
+
+
+/* Buttons */
+
+.btncase {
+    display: flex;
+
+}
+.save,.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    width: 100px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #e3e3e4;
+    border: none;
+    margin: 3px;
+
+}
+
+
+
